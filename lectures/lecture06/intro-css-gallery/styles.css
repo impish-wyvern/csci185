@@ -1,0 +1,41 @@
+body {
+    font-family: Courier, monospace, serif;
+    margin: 0cm;
+}
+
+/* Your code here */
+
+header {
+    background-color: #571b69;
+    padding: 30px;
+}
+
+main {
+    background-color: rgb(27, 25, 27);
+    padding: 50px
+}
+
+section p {
+    color: black;
+    font-weight: 200;
+}
+
+header h1, header p {
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px white;
+    padding: 20px;
+    background-color: #655f5f;
+}
+
+section img {
+    padding: 10px;
+}
