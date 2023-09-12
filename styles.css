@@ -5,10 +5,35 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
 
+header {
+    padding: 45px;
+    background-color: rgb(91, 160, 156);
+    text-align: center;
+}
+
+a {
+    color:rgb(91, 160, 156);
+}
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
+}
+
+section {
+    display: inline-table;
+    padding: 40px;
+}
+
+footer {
+    background-color: rgb(143, 155, 155);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    position: absolute;
+    right: 0;bottom:0;left:0;
 }
