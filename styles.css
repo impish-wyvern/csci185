@@ -18,6 +18,7 @@ header {
 
 a {
     color:rgb(91, 160, 156);
+    text-decoration: none;
 }
 p, a, li {
     line-height: 1.5em;
