@@ -1,0 +1,15 @@
+/* Your style rules here */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+h1 {
+    font-family: Allura;
+}
+
+a {
+    font-family: Allura;
+    font-size: 2em;
+}
+
+a:hover {
+    text-decoration: none;
+}
