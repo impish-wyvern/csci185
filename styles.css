@@ -10,6 +10,12 @@ body {
     color: white;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 header {
     padding: 15px;
     background-color: rgb(20, 20, 20);
