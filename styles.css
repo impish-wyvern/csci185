@@ -11,13 +11,14 @@ body {
 }
 
 header {
-    padding: 45px;
-    background-color: rgb(91, 160, 156);
+    padding: 15px;
+    background-color: black;
     text-align: center;
+    font-style: italic;
 }
 
 a {
-    color:rgb(91, 160, 156);
+    color: #eee;;
     text-decoration: none;
 }
 a:hover {
@@ -33,10 +34,38 @@ section {
     padding: 50px;
 }
 
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tutorials {
+    background-color: #84a98c;
+}
+
+#homework {
+    background-color: #52796f;
+}
+
+#inspiration {
+    background-color: #354f52;
+    color: white;
+}
+
+#class-exercises {
+    background-color: #2f3e46;
+    color: white;
+}
+
+
 footer {
     background-color: rgb(143, 155, 155);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 0px;
-    right: 0;bottom:0;left:0;
+    right: 0; bottom:0; left:0;
+    color: black;
 }
