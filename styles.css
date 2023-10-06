@@ -1,26 +1,44 @@
 /* You're welcome to change any of this! */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Slab&family=Mooli&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Mooli;
     background-color: black;
     color: white;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
+img {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+    padding: 5px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+header img {
+    height: auto;
 }
 
 
 header {
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     background-color: rgb(20, 20, 20);
-    text-align: center;
     font-style: italic;
+    max-height: 150px;
 }
 
 a {
@@ -74,4 +92,19 @@ footer {
     margin-bottom: 0px;
     right: 0; bottom:0; left:0;
     color: rgb(18, 17, 17);
+}
+
+@media screen and (max-width: 800px){
+    p, a, li {
+        margin:0;
+        line-height: 1em;
+    }
+
+    #navbar {
+        display: none;
+    }
+    
+    section {
+        height: 70vh;
+    }
 }
