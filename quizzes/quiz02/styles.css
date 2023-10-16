@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Slab&family=Mooli&family=Orbitron&family=Passion+One&display=swap');
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header {
+    background-color: #013672;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    padding: 25px;
+}
+
+header img, footer img {
+    width: 200px;
+}
+
+h1, h2, h3 {
+    font-family: Passion One;
+}
+
+h1 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border: 1px solid black;
+    padding: 5px
+}
+
+.card div {
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    padding: 5px;
+}
+
+.card {
+    transition: all .3s ease-in;
+}
+
+.card:hover {
+    background-color: #013672;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+}

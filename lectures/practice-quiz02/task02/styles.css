@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+section {
+    border: solid 4px orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#s2 {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#s3 {
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+}
+
+#s5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
