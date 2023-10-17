@@ -195,37 +195,39 @@ article {
 }
 
 .artist-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: #212121;
     border-radius: 20px;
     padding: 10px;
     padding-bottom: 40px;
 }
 
+
 .play-button {
-    display: flex;
-    justify-content: right;
     background-color: #1ED760;
     border: none;
-    border-radius: 50%;
-    font-size: 10px;
+    border-radius: 40px;
+    font-size: 30px;
 }
+
+.play-button>i {
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+} 
+
 .artist-card button {
-    display: none;
+    visibility: hidden;
 }
-.artist-card:hover {
-   .play-button {
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        background-color: #1ED760;
-        border: none;
-        font-size: 5px;
-        color: white;
-   }
+
+.artist-card:hover button{
+    visibility: visible;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #1ED760;
+    border: none;
+    font-size: 20px;
+    color: white;
 }
 
 h2 {
@@ -250,11 +252,11 @@ h2 {
 
 
 @media screen and (max-width: 500px) {
-    #featured-content { 
+    
+    article {
         display: grid;
-        grid-template-columns: 5fr 5fr;
+        grid-template-columns: 50% 50%;
         grid-template-rows: auto;
-        width: 100%;
     }
 
     #upgrade {
@@ -263,6 +265,5 @@ h2 {
 
     #sidebar {
         display: none;
-        visibility: hidden;
     }
 }
