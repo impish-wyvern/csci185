@@ -2,7 +2,7 @@ Please answer the following accessibility questions:
 
 
 1. What accessibility corrections did you have to make?
-
+I had to add a language signifier for the page in the html. I also had to add alternative text to the images, as well as add aria-labels to the play buttons, in the html.
 
 2. Do you think your website is usable if you turn off the CSS? Why or why not?
 No, because the directions on how to use the site are not clear without the CSS. The styling signifiers help people understand what is a button, link, etc. 
