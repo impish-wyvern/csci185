@@ -5,6 +5,7 @@ Please answer the following accessibility questions:
 
 
 2. Do you think your website is usable if you turn off the CSS? Why or why not?
-
+No, because the directions on how to use the site are not clear without the CSS. The styling signifiers help people understand what is a button, link, etc. 
 
 3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+Yes, all links and buttons are tabbable (usable/accessible without a mouse). 
