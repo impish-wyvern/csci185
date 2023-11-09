@@ -21,6 +21,37 @@ function showImage() {
     console.log('Show image');
     const img = document.querySelector(".current-photo img");
     img.src = photos[idx];
+    
+    if (idx === 0){
+    document.querySelector('.caption').textContent = "Image 1 of 10";
+    }
+    if (idx === 1){
+        document.querySelector('.caption').textContent = "Image 2 of 10";
+    }
+    if (idx === 2){
+        document.querySelector('.caption').textContent = "Image 3 of 10";
+    }
+    if (idx === 3){
+        document.querySelector('.caption').textContent = "Image 4 of 10";
+    }
+    if (idx === 4){
+        document.querySelector('.caption').textContent = "Image 5 of 10";
+    }
+    if (idx === 5){
+        document.querySelector('.caption').textContent = "Image 6 of 10";
+    }
+    if (idx === 6){
+        document.querySelector('.caption').textContent = "Image 7 of 10";
+    }
+    if (idx === 7){
+        document.querySelector('.caption').textContent = "Image 8 of 10";
+    }
+    if (idx === 8){
+        document.querySelector('.caption').textContent = "Image 9 of 10";
+    }
+    if (idx === 9){
+        document.querySelector('.caption').textContent = "Image 10 of 10";
+    }
 }
 
 
@@ -33,7 +64,11 @@ function showImage() {
 function forward() {
     console.log('forward');
     idx += 1;
+    if (idx > 9) {
+        idx = 0;
+    }
     showImage();
+    
 }
 
 
@@ -45,4 +80,10 @@ function forward() {
 */
 function back() {
     console.log('back');
+    idx -= 1;
+    if (idx < 0) {
+        idx = 9;
+    }
+    showImage();
+
 }
