@@ -31,16 +31,6 @@ function mouseDragged(){
         square(mouseX, mouseY, width);
     } 
    
-    // circle(mouseX, mouseY, width);
-    // square(mouseX, mouseY, width);
-
-    
-    // triangle(
-    //     mouseX, mouseY - r, // first point
-    //     mouseX-r, mouseY+r, // second point
-    //     mouseX+r, mouseY+r  // third point
-    // )
-
 }
 
 
