@@ -1,3 +1,4 @@
+// a list of strings
 const photos = [
     'images/poppies.jpg',
     'images/dogwoods.jpg',
@@ -19,7 +20,11 @@ const photos = [
 
 // Create a card for every image in the photos list using a for...of loop and
 // template variables
-let template = `
-    <div class="card" style="background-image:url('images/poppies.jpg')"></div>
-`;
-document.querySelector('.cards').insertAdjacentHTML('beforeend', template);
+// the backtick makes it a smart string
+let counter = 0;
+while (counter < 16) {
+let template = 
+    `<div class="card" style="background-image:url(${photos[counter]})"></div>`;
+    counter += 1;
+    document.querySelector('.cards').insertAdjacentHTML('beforeend', template);
+}
