@@ -1,4 +1,4 @@
-﻿<!-- <?php
+﻿<?php
 
 // Replace this with your own email address
 $siteOwnersEmail = 'emkerr15@gmail.com';
@@ -66,11 +66,11 @@ if($_POST) {
 
 }
 
-?> -->
+?>
 
-<?php
+<!-- <?php
 
-    $to = "jtdenton14@gmail.com";
+    $to = "emkerr15@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
@@ -91,4 +91,4 @@ if($_POST) {
 
     $send = mail($to, $subject, $body, $headers);
 
-?>
+?> -->
