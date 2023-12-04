@@ -41,7 +41,7 @@ async function getTracks (term) {
     for (let i = 0; i < 5; i++) {
         const track = trackData[i];
         const template = `
-        <section class="track-item preview" onclick="playTrack()">
+        <section class="track-item preview" onclick="playTrack('${track.id}')">
             <img src="${track.album.image_url}">
             <i class="fas play-track fa-play" aria-hidden="true"></i>
             <div class="label">
